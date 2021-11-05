@@ -5,7 +5,7 @@ df = pd.read_csv (r'StudentInformation.csv') #pandas creates dataframe from the 
 def filter(a, b, c):
     print (df[df[a].str.contains(b)]) # Event A 
     print (df[df[a].str.contains(c)]) # Event B
-    # print (df[df[a].str.contains(b) & df[a].str.contains(c)]) #Event A and B
+    print (df[df[a].str.contains(b) & df[a].str.contains(c)]) #Event A and B, for questions 2, 6 and 10 please ignore this section 
 
 #Problem 1 - uses Facebook or Reddit 
 filter("6", "Facebook", "Reddit")
