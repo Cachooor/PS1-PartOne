@@ -1,5 +1,4 @@
 # PS1-PartOne
 
-Main.py is where the main code runs. 
-
-Messy.py was the original code but then cleaned up later on
+Main.py is actual code
+Messy.py is the original code and is there for reference
