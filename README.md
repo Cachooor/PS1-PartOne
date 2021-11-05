@@ -2,4 +2,4 @@
 
 Main.py is where the main code runs. 
 
-Messy.py was the original code and then made simple with just a function that has three parameters 
+Messy.py was the original code but then cleaned up later on
